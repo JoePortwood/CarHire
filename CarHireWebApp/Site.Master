@@ -1,0 +1,147 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="CarHireWebApp.SiteMaster" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="AjaxControlToolkit" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - My ASP.NET Application</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="~/Content/Vehicles.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/BaseStyleSheet.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/CustomNavBar.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/Bookings.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/Locations.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/PhoneCss/intlTelInput.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="respond" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <asp:ScriptReference Path="Scripts/PhoneInput/intlTelInput.js" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+        <script src="Scripts/PhoneInput/intlTelInput.js"></script>
+
+        <img src="../Images/Car Hire Logo.png" class="centerimage">
+        <div class="navbar navbar-custom navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" runat="server" href="~/">Home</a>
+
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown">Locations <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a runat="server" href="~/ViewLocations">Locations</a></li>
+                                <li id="locationDiv1" class="divider" runat="server"></li>
+                                <li id="locationAdd" runat="server"><a runat="server" href="~/AddLocation">Add Location</a></li>
+                                <li id="locationEdit" runat="server"><a runat="server" href="~/EditLocation">Edit Location</a></li>
+                                <li id="locationDiv2" class="divider" runat="server"></li>
+                                <li id="openingTimes" runat="server"><a runat="server" href="~/AddOpeningTime">Add Opening Times</a></li>
+                                <li id="manageHolidayTimes" runat="server"><a runat="server" href="~/ManageHolidayOpeningTimes">Manage Holiday Opening Times</a></li>
+                            </ul>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown">Vehicles <span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a runat="server" href="~/Vehicles">Vehicles</a></li>
+                                    <li id="vehicleDiv" class="divider" runat="server"></li>
+                                    <li id="vehicleAdd" runat="server"><a runat="server" href="~/AddVehicle">Add Vehicle</a></li>
+                                    <li id="vehicleEdit" runat="server"><a runat="server" href="~/EditVehicle">Edit Vehicle</a></li>
+                                </ul>
+                                <li class="dropdown">
+                                    <a runat="server" id="bookingsDdl" class="dropdown-toggle" data-toggle="dropdown">Bookings <span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a runat="server" href="~/AvailableVehicles">Make a Booking</a></li>
+                                        <li id="bookableDiv" class="divider" runat="server"></li>
+                                        <li id="bookingAdd" runat="server"><a runat="server" href="~/AddAvailableVehicle">Add a Booking</a></li>
+                                        <li id="bookingEdit" runat="server"><a runat="server" href="~/EditAvailableVehicle">Edit a Booking</a></li>
+                                    </ul>
+                                    <li class="dropdown">
+                                        <a runat="server" class="dropdown-toggle" id="companyDdl" data-toggle="dropdown">Companies <span class="caret"></span></a>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li><a runat="server" href="~/ViewCompanies">Companies</a></li>
+                                            <li id="companyDiv" class="divider" runat="server"></li>
+                                            <li id="companyAdd" runat="server"><a runat="server" href="~/AddCompany">Add Company</a></li>
+                                            <li id="companyAddressAdd" runat="server"><a runat="server" href="~/AdditionalAddresses?Company=true">Add Another Address</a></li>
+                                        </ul>
+                                        <li class="dropdown">
+                                            <a runat="server" id="customerDdl" class="dropdown-toggle" data-toggle="dropdown">Customers <span class="caret"></span></a>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li id="customerView" runat="server"><a runat="server" href="~/ViewCustomers">Customers</a></li>
+                                                <li id="customerDiv" class="divider" runat="server"></li>
+                                                <li id="customerAdd" runat="server"><a runat="server" href="~/AddCompany">Add Customer</a></li>
+                                                <li id="customerAddressAdd" runat="server"><a runat="server" href="~/AdditionalAddresses?Customer=true">Add Another Address</a></li>
+                                            </ul>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a runat="server" id="registerDdl" class="dropdown-toggle" data-toggle="dropdown">Register <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a runat="server" href="~/RegisterCompany">Company</a></li>
+                                <li><a runat="server" href="~/RegisterCustomer">Customer</a></li>
+                            </ul>
+                            <li class="dropdown">
+                                <a runat="server" id="accountDdl" class="dropdown-toggle" data-toggle="dropdown">Hello, <%:  Session["UserName"]   %> <span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a runat="server" href="~/Account/ChangePassword">Change Password</a></li>
+                                    <li id="updateCustomer" runat="server"><a runat="server" href="~/UpdateCustomerAccount">Edit Account</a></li>
+                                    <li id="updateCompany" runat="server"><a runat="server" href="~/UpdateCompanyAccount">Edit Account</a></li>
+                                    <li id="viewOrders" runat="server"><a runat="server" href="~/Account/ViewOrders">View Orders</a></li>
+                                    <li id="viewCustomerOrders" runat="server"><a runat="server" href="~/Account/ViewCustomerOrders">View Customer Orders</a></li>
+                                </ul>
+                                <li class="dropdown">
+                                    <a runat="server" id="loginDdl" class="dropdown-toggle" data-toggle="dropdown">Login <span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li id="loginCompany" runat="server"><a runat="server" href="~/Account/LoginCompany">Company</a></li>
+                                        <li id="loginCustomer" runat="server"><a runat="server" href="~/Account/LoginCustomer">Customer</a></li>
+                                    </ul>
+                                    <li id="logout" runat="server">
+                                        <asp:LinkButton runat="Server" Text="Logout" OnClick="LogOut" /></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer>
+                <p>&copy; <%: DateTime.Now.Year %> - Portwood Car Hire</p>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>

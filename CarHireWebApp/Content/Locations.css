@@ -1,0 +1,26 @@
+﻿body {
+}
+
+#map-canvas { 
+    height: 500px; 
+    margin: 20px; 
+    padding: 0;
+}
+
+.mappopuptitle {
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+}
+
+.boldtext {
+    font-weight: bold;
+}
+
+.tablevisible {
+    visibility: hidden;
+}
+
+.redtext {
+    color: red;
+}

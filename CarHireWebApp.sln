@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarHireWebApp", "CarHireWebApp\CarHireWebApp.csproj", "{BE875EC2-DAD9-435D-AB03-F3B82BF3DE72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarHireDBLibrary", "CarHireDBLibrary\CarHireDBLibrary.csproj", "{0559091C-D2E1-42E1-B0A6-817FD838DF55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE875EC2-DAD9-435D-AB03-F3B82BF3DE72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE875EC2-DAD9-435D-AB03-F3B82BF3DE72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE875EC2-DAD9-435D-AB03-F3B82BF3DE72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE875EC2-DAD9-435D-AB03-F3B82BF3DE72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0559091C-D2E1-42E1-B0A6-817FD838DF55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0559091C-D2E1-42E1-B0A6-817FD838DF55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0559091C-D2E1-42E1-B0A6-817FD838DF55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0559091C-D2E1-42E1-B0A6-817FD838DF55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

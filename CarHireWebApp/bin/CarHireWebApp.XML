@@ -1,0 +1,4135 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CarHireWebApp</name>
+    </assembly>
+    <members>
+        <member name="F:CarHireWebApp.Account.Confirmed.status">
+            <summary>
+            status control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.ForgotPassword.ErrorMessage">
+            <summary>
+            ErrorMessage control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.ForgotPassword.FailureText">
+            <summary>
+            FailureText control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.ForgotPassword.userNameTxt">
+            <summary>
+            userNameTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.ForgotPassword.emailTxt">
+            <summary>
+            emailTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:CarHireWebApp.Account.LoginCompany">
+            <summary>
+             Login to a company account that is on the system.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.Account.LoginCompany.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.Account.LoginCompany.CompanyLogInBtn(System.Object,System.EventArgs)">
+            <summary>
+             Login to a company account that is on the system.
+            </summary>
+        </member>
+        <member name="F:CarHireWebApp.Account.LoginCompany.ErrorMessage">
+            <summary>
+            ErrorMessage control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.LoginCompany.FailureText">
+            <summary>
+            FailureText control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.LoginCompany.userNameTxt">
+            <summary>
+            userNameTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.LoginCompany.passwordTxt">
+            <summary>
+            passwordTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.LoginCompany.rememberMeChk">
+            <summary>
+            rememberMeChk control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.LoginCompany.forgotPasswordHyperlink">
+            <summary>
+            forgotPasswordHyperlink control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.LoginCompany.RegisterHyperLink">
+            <summary>
+            RegisterHyperLink control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:CarHireWebApp.Account.LoginCustomer">
+            <summary>
+             Logins to a customer account that is already on the system.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.Account.LoginCustomer.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.Account.LoginCustomer.CustomerLogInBtn(System.Object,System.EventArgs)">
+            <summary>
+             Logins to a customer account that is already on the system.
+            </summary>
+        </member>
+        <member name="F:CarHireWebApp.Account.LoginCustomer.ErrorMessage">
+            <summary>
+            ErrorMessage control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.LoginCustomer.FailureText">
+            <summary>
+            FailureText control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.LoginCustomer.userNameTxt">
+            <summary>
+            userNameTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.LoginCustomer.passwordTxt">
+            <summary>
+            passwordTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.LoginCustomer.rememberMeChk">
+            <summary>
+            rememberMeChk control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.LoginCustomer.forgotPasswordHyperlink">
+            <summary>
+            forgotPasswordHyperlink control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.LoginCustomer.RegisterHyperLink">
+            <summary>
+            RegisterHyperLink control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="M:CarHireWebApp.Account.Manage.ChangePassword_Click(System.Object,System.EventArgs)">
+            <summary>
+             Hashes the entered password if the password and confirmed password are the same then saves this hashed password to the database.
+            </summary>
+        </member>
+        <member name="F:CarHireWebApp.Account.Manage.generalErrorLbl">
+            <summary>
+            generalErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.Manage.successMessage">
+            <summary>
+            successMessage control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.Manage.changePasswordHolder">
+            <summary>
+            changePasswordHolder control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.Manage.CurrentPasswordLabel">
+            <summary>
+            CurrentPasswordLabel control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.Manage.currentPasswordTxt">
+            <summary>
+            currentPasswordTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.Manage.NewPasswordLabel">
+            <summary>
+            NewPasswordLabel control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.Manage.newPasswordTxt">
+            <summary>
+            newPasswordTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.Manage.ConfirmNewPasswordLabel">
+            <summary>
+            ConfirmNewPasswordLabel control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.Manage.confirmNewPasswordTxt">
+            <summary>
+            confirmNewPasswordTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.OpenAuthProviders.providerDetails">
+            <summary>
+            providerDetails control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.RegisterExternalLogin.email">
+            <summary>
+            email control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:CarHireWebApp.Account.ResetPassword">
+            <summary>
+             Resets the password of an account that a password reset request has been sent to.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.Account.ResetPassword.Reset_Click(System.Object,System.EventArgs)">
+            <summary>
+             Resets password as long as there is a request for this account made within the last 15 mins.
+            </summary>
+        </member>
+        <member name="F:CarHireWebApp.Account.ResetPassword.ErrorMessage">
+            <summary>
+            ErrorMessage control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.ResetPassword.userNameTxt">
+            <summary>
+            userNameTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.ResetPassword.passwordTxt">
+            <summary>
+            passwordTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.ResetPassword.confirmPasswordTxt">
+            <summary>
+            confirmPasswordTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="M:CarHireWebApp.Account.ResetPasswordConfirmation.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+             Puts a message onto the page using the query string.
+            </summary>
+        </member>
+        <member name="F:CarHireWebApp.Account.ResetPasswordConfirmation.infoLbl">
+            <summary>
+            infoLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.ResetPasswordConfirmation.redirectLbl">
+            <summary>
+            redirectLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:CarHireWebApp.Account.ViewCustomerOrders">
+            <summary>
+             View all customers that have orders with logged in company.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.Account.ViewCustomerOrders.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+             Must be logged in as company.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.Account.ViewCustomerOrders.AddHeaderRow">
+            <summary>
+             Adds table header for orders table.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.Account.ViewCustomerOrders.LoadOrders">
+            <summary>
+             Load the orders into the table.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.Account.ViewCustomerOrders.UpdateBtn_Click(System.Object,System.EventArgs)">
+            <summary>
+             Updates the status of the order in question to whichever option is selected in the drop down list.
+            </summary>
+        </member>
+        <member name="F:CarHireWebApp.Account.ViewCustomerOrders.generalErrorLbl">
+            <summary>
+            generalErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.ViewCustomerOrders.customerOrdersTbl">
+            <summary>
+            customerOrdersTbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:CarHireWebApp.Account.ViewOrders">
+            <summary>
+             Displays all the orders for the logged in customer.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.Account.ViewOrders.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+             Must be logged in as a customer.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.Account.ViewOrders.AddHeaderRow">
+            <summary>
+             Adds table header for orders table.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.Account.ViewOrders.LoadOrders">
+            <summary>
+             Loads all the orders for logged in customer
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.Account.ViewOrders.CancelBtn_Click(System.Object,System.EventArgs)">
+            <summary>
+             Cancels the selected order
+            </summary>
+        </member>
+        <member name="F:CarHireWebApp.Account.ViewOrders.generalErrorLbl">
+            <summary>
+            generalErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.ViewOrders.ordersTbl">
+            <summary>
+            ordersTbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:CarHireWebApp.Account.RegisterCompany">
+            <summary>
+             Registers a new company.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.Account.RegisterCompany.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            Must not be logged in with any account type.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.Account.RegisterCompany.CreateUser_Click(System.Object,System.EventArgs)">
+            <summary>
+             Adds a new company checking all fields have been entered correctly.
+            </summary>
+        </member>
+        <member name="F:CarHireWebApp.Account.RegisterCompany.ErrorMessage">
+            <summary>
+            ErrorMessage control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.RegisterCompany.generalErrorLbl">
+            <summary>
+            generalErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.RegisterCompany.inputErrorLbl">
+            <summary>
+            inputErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.RegisterCompany.companySavedLbl">
+            <summary>
+            companySavedLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.RegisterCompany.companyNameTxt">
+            <summary>
+            companyNameTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.RegisterCompany.companyDescriptionTxt">
+            <summary>
+            companyDescriptionTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.RegisterCompany.licensingDetailsTxt">
+            <summary>
+            licensingDetailsTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.RegisterCompany.emailAddressTxt">
+            <summary>
+            emailAddressTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.RegisterCompany.userNameTxt">
+            <summary>
+            userNameTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.RegisterCompany.passwordTxt">
+            <summary>
+            passwordTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.RegisterCompany.confirmPasswordTxt">
+            <summary>
+            confirmPasswordTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:CarHireWebApp.Account.RegisterCustomer">
+            <summary>
+             Registers a new customer.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.Account.RegisterCustomer.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+             Must not be logged in with any account type.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.Account.RegisterCustomer.LoadDdls">
+            <summary>
+             Loads data for all the drop down lists.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.Account.RegisterCustomer.CreateUser_Click(System.Object,System.EventArgs)">
+            <summary>
+             Registers a new company assuming all the fields are entered correctly.
+            </summary>
+        </member>
+        <member name="F:CarHireWebApp.Account.RegisterCustomer.ErrorMessage">
+            <summary>
+            ErrorMessage control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.RegisterCustomer.generalErrorLbl">
+            <summary>
+            generalErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.RegisterCustomer.inputErrorLbl">
+            <summary>
+            inputErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.RegisterCustomer.customerSavedLbl">
+            <summary>
+            customerSavedLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.RegisterCustomer.surnameTxt">
+            <summary>
+            surnameTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.RegisterCustomer.forenameTxt">
+            <summary>
+            forenameTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.RegisterCustomer.titleDdl">
+            <summary>
+            titleDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.RegisterCustomer.companyDdl">
+            <summary>
+            companyDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.RegisterCustomer.emailAddressTxt">
+            <summary>
+            emailAddressTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.RegisterCustomer.licenseNoTxt">
+            <summary>
+            licenseNoTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.RegisterCustomer.issueDaysDdl">
+            <summary>
+            issueDaysDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.RegisterCustomer.issueMonthsDdl">
+            <summary>
+            issueMonthsDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.RegisterCustomer.issueYearsDdl">
+            <summary>
+            issueYearsDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.RegisterCustomer.expirationDaysDdl">
+            <summary>
+            expirationDaysDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.RegisterCustomer.expirationMonthsDdl">
+            <summary>
+            expirationMonthsDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.RegisterCustomer.expirationYearsDdl">
+            <summary>
+            expirationYearsDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.RegisterCustomer.dateOfBirthDaysDdl">
+            <summary>
+            dateOfBirthDaysDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.RegisterCustomer.dateOfBirthMonthsDdl">
+            <summary>
+            dateOfBirthMonthsDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.RegisterCustomer.dateOfBirthYearsDdl">
+            <summary>
+            dateOfBirthYearsDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.RegisterCustomer.userNameTxt">
+            <summary>
+            userNameTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.RegisterCustomer.passwordTxt">
+            <summary>
+            passwordTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.RegisterCustomer.confirmPasswordTxt">
+            <summary>
+            confirmPasswordTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:CarHireWebApp.Account.UpdateCustomerAccount">
+            <summary>
+             Updates the current logged in customer.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.Account.UpdateCustomerAccount.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.Account.UpdateCustomerAccount.UpdateUser_Click(System.Object,System.EventArgs)">
+            <summary>
+             Update the customer in the database assuming all fields entered are correct.
+            </summary>
+        </member>
+        <member name="F:CarHireWebApp.Account.UpdateCustomerAccount.ErrorMessage">
+            <summary>
+            ErrorMessage control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.UpdateCustomerAccount.generalErrorLbl">
+            <summary>
+            generalErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.UpdateCustomerAccount.inputErrorLbl">
+            <summary>
+            inputErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.UpdateCustomerAccount.customerSavedLbl">
+            <summary>
+            customerSavedLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.UpdateCustomerAccount.surnameTxt">
+            <summary>
+            surnameTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.UpdateCustomerAccount.forenameTxt">
+            <summary>
+            forenameTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.UpdateCustomerAccount.titleDdl">
+            <summary>
+            titleDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.UpdateCustomerAccount.companyDdl">
+            <summary>
+            companyDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.UpdateCustomerAccount.emailAddressTxt">
+            <summary>
+            emailAddressTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.UpdateCustomerAccount.licenseNoTxt">
+            <summary>
+            licenseNoTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.UpdateCustomerAccount.issueDaysDdl">
+            <summary>
+            issueDaysDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.UpdateCustomerAccount.issueMonthsDdl">
+            <summary>
+            issueMonthsDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.UpdateCustomerAccount.issueYearsDdl">
+            <summary>
+            issueYearsDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.UpdateCustomerAccount.expirationDaysDdl">
+            <summary>
+            expirationDaysDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.UpdateCustomerAccount.expirationMonthsDdl">
+            <summary>
+            expirationMonthsDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.UpdateCustomerAccount.expirationYearsDdl">
+            <summary>
+            expirationYearsDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.UpdateCustomerAccount.dateOfBirthDaysDdl">
+            <summary>
+            dateOfBirthDaysDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.UpdateCustomerAccount.dateOfBirthMonthsDdl">
+            <summary>
+            dateOfBirthMonthsDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Account.UpdateCustomerAccount.dateOfBirthYearsDdl">
+            <summary>
+            dateOfBirthYearsDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:CarHireWebApp.AddAvailableVehicle">
+            <summary>
+             Adds a new vehicle that is linked to a location and listed as available.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.AddAvailableVehicle.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.AddAvailableVehicle.LoadLocations">
+            <summary>
+             Loads all the locations in the database for logged in user to be listed in the dropdown.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.AddAvailableVehicle.LoadVehicles">
+            <summary>
+             Load all the vehicles that the logged in company has ownership of.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.AddAvailableVehicle.VehicleDdl_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+             Displays the image of the vehicle once a vehicle has been selected in the drop down list.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.AddAvailableVehicle.AddAvailableVehiclesBtn_Click(System.Object,System.EventArgs)">
+            <summary>
+             Adds a new vehicle to be listed against this location as available to book.
+            </summary>
+        </member>
+        <member name="F:CarHireWebApp.AddAvailableVehicle.generalErrorLbl">
+            <summary>
+            generalErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddAvailableVehicle.inputErrorLbl">
+            <summary>
+            inputErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddAvailableVehicle.vehicleAddedLbl">
+            <summary>
+            vehicleAddedLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddAvailableVehicle.locationDdl">
+            <summary>
+            locationDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddAvailableVehicle.vehicleDdl">
+            <summary>
+            vehicleDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddAvailableVehicle.vehicleImg">
+            <summary>
+            vehicleImg control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddAvailableVehicle.totalVehiclesTxt">
+            <summary>
+            totalVehiclesTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddAvailableVehicle.currencyDdl">
+            <summary>
+            currencyDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddAvailableVehicle.basePriceTxt">
+            <summary>
+            basePriceTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddAvailableVehicle.addAvailableVehicleBtn">
+            <summary>
+            addAvailableVehicleBtn control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddAvailableVehicle.vehiclesAvailableTbl">
+            <summary>
+            vehiclesAvailableTbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddCompany.generalErrorLbl">
+            <summary>
+            generalErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddCompany.inputErrorLbl">
+            <summary>
+            inputErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddCompany.companySavedLbl">
+            <summary>
+            companySavedLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddCompany.userNameTxt">
+            <summary>
+            userNameTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddCompany.companyNameTxt">
+            <summary>
+            companyNameTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddCompany.companyDescriptionTxt">
+            <summary>
+            companyDescriptionTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddCompany.phoneNoTxt">
+            <summary>
+            phoneNoTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddCompany.emailAddressTxt">
+            <summary>
+            emailAddressTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddCompany.addressLine1Txt">
+            <summary>
+            addressLine1Txt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddCompany.addressLine2Txt">
+            <summary>
+            addressLine2Txt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddCompany.addressLine3Txt">
+            <summary>
+            addressLine3Txt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddCompany.addressLine4Txt">
+            <summary>
+            addressLine4Txt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddCompany.cityTxt">
+            <summary>
+            cityTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddCompany.zipOrPostcodeTxt">
+            <summary>
+            zipOrPostcodeTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddCompany.countyStateProvinceTxt">
+            <summary>
+            countyStateProvinceTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddCompany.countryTxt">
+            <summary>
+            countryTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddCompany.otherAddressDetailsTxt">
+            <summary>
+            otherAddressDetailsTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddCompany.addCompanyBtn">
+            <summary>
+            addCompanyBtn control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="M:CarHireWebApp.AdditionalAddresses.AddHeaderRow">
+            <summary>
+             Adds table header for vehicle table.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.AdditionalAddresses.CompanyDdl_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+             Loads companies.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.AdditionalAddresses.CustomerDdl_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+             Loads customers.
+            </summary>
+        </member>
+        <member name="F:CarHireWebApp.AdditionalAddresses.generalErrorLbl">
+            <summary>
+            generalErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AdditionalAddresses.inputErrorLbl">
+            <summary>
+            inputErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AdditionalAddresses.addressSavedLbl">
+            <summary>
+            addressSavedLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AdditionalAddresses.custRedirectBtn">
+            <summary>
+            custRedirectBtn control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AdditionalAddresses.compRedirectBtn">
+            <summary>
+            compRedirectBtn control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AdditionalAddresses.typeLbl">
+            <summary>
+            typeLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AdditionalAddresses.companyDdl">
+            <summary>
+            companyDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AdditionalAddresses.customerDdl">
+            <summary>
+            customerDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AdditionalAddresses.AddressesTbl">
+            <summary>
+            AddressesTbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AdditionalAddresses.addressLine1Txt">
+            <summary>
+            addressLine1Txt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AdditionalAddresses.addressLine2Txt">
+            <summary>
+            addressLine2Txt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AdditionalAddresses.addressLine3Txt">
+            <summary>
+            addressLine3Txt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AdditionalAddresses.addressLine4Txt">
+            <summary>
+            addressLine4Txt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AdditionalAddresses.cityTxt">
+            <summary>
+            cityTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AdditionalAddresses.zipOrPostcodeTxt">
+            <summary>
+            zipOrPostcodeTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AdditionalAddresses.countyStateProvinceTxt">
+            <summary>
+            countyStateProvinceTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AdditionalAddresses.countryTxt">
+            <summary>
+            countryTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AdditionalAddresses.otherAddressDetailsTxt">
+            <summary>
+            otherAddressDetailsTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AdditionalAddresses.addAddressBtn">
+            <summary>
+            addAddressBtn control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:CarHireWebApp.AddLocations">
+            <summary>
+            Adds a new location to the database.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.AddLocations.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            Must be logged in as a company.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.AddLocations.LocationAddBtn_Click(System.Object,System.EventArgs)">
+            <summary>
+            Checks the location is valid then adds it to the database.
+            </summary>
+        </member>
+        <member name="F:CarHireWebApp.AddLocations.ErrorMessage">
+            <summary>
+            ErrorMessage control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddLocations.generalErrorLbl">
+            <summary>
+            generalErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddLocations.inputErrorLbl">
+            <summary>
+            inputErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddLocations.locationSavedLbl">
+            <summary>
+            locationSavedLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddLocations.locationNameTxt">
+            <summary>
+            locationNameTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddLocations.ownerNameTxt">
+            <summary>
+            ownerNameTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddLocations.capacityTxt">
+            <summary>
+            capacityTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddLocations.emailAddressTxt">
+            <summary>
+            emailAddressTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddLocations.longitudeTxt">
+            <summary>
+            longitudeTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddLocations.latitudeTxt">
+            <summary>
+            latitudeTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddLocations.enterManuallyChk">
+            <summary>
+            enterManuallyChk control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddLocations.addressLine1Txt">
+            <summary>
+            addressLine1Txt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddLocations.addressLine1Chk">
+            <summary>
+            addressLine1Chk control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddLocations.addressLine2Txt">
+            <summary>
+            addressLine2Txt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddLocations.addressLine2Chk">
+            <summary>
+            addressLine2Chk control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddLocations.cityTxt">
+            <summary>
+            cityTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddLocations.cityChk">
+            <summary>
+            cityChk control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddLocations.zipOrPostcodeTxt">
+            <summary>
+            zipOrPostcodeTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddLocations.zipOrPostcodeChk">
+            <summary>
+            zipOrPostcodeChk control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddLocations.countyStateProvinceTxt">
+            <summary>
+            countyStateProvinceTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddLocations.countyStateProvinceChk">
+            <summary>
+            countyStateProvinceChk control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddLocations.countryChk">
+            <summary>
+            countryChk control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddLocations.addLocationBtn">
+            <summary>
+            addLocationBtn control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:CarHireWebApp.AddOpeningTime">
+            <summary>
+             Adds opening times to selected location for each day of the week.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.AddOpeningTime.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+             Must be logged in as a company.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.AddOpeningTime.LoadLocations">
+            <summary>
+             Loads location either from url string or drop down list.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.AddOpeningTime.LoadTableControls">
+            <summary>
+             Loads the table to edit the opening times.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.AddOpeningTime.AddHeaderRow">
+            <summary>
+             Adds table header for opening times table.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.AddOpeningTime.LocationDdl_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+             Loads opening times.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.AddOpeningTime.LoadOpeningTimes">
+            <summary>
+             Loads the opening times for this location.
+             If closed is set to true then no times will be displayed.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.AddOpeningTime.AddUpdateBtn_Click(System.Object,System.EventArgs)">
+            <summary>
+             Updates the database with all the times currently in the table for the selected location.
+            </summary>
+        </member>
+        <member name="F:CarHireWebApp.AddOpeningTime.generalErrorLbl">
+            <summary>
+            generalErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddOpeningTime.inputErrorLbl">
+            <summary>
+            inputErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddOpeningTime.timeSavedLbl">
+            <summary>
+            timeSavedLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddOpeningTime.locationDdl">
+            <summary>
+            locationDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddOpeningTime.openingTimesTbl">
+            <summary>
+            openingTimesTbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddOpeningTime.updateTimesBtn">
+            <summary>
+            updateTimesBtn control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:CarHireWebApp.AddVehicle">
+            <summary>
+             This class allows for vehicles to be added to the database.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.AddVehicle.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.AddVehicle.VehicleAddBtn_Click(System.Object,System.EventArgs)">
+            <summary>
+             Checks fields entered are valid then adds vehicle to database.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.AddVehicle.PictureUpload">
+            <summary>
+             Performs checks on picture to make sure it is a jpg and less than 10MB
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.AddVehicle.AddHeaderRow">
+            <summary>
+             Adds table header for SIPP codes modal.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.AddVehicle.LoadSIPPCodes">
+            <summary>
+             Get SIPP Codes for modal.
+            </summary>
+        </member>
+        <member name="F:CarHireWebApp.AddVehicle.generalErrorLbl">
+            <summary>
+            generalErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddVehicle.fileUpload">
+            <summary>
+            fileUpload control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddVehicle.imgViewFile">
+            <summary>
+            imgViewFile control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddVehicle.noImageChk">
+            <summary>
+            noImageChk control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddVehicle.pictureErrorLbl">
+            <summary>
+            pictureErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddVehicle.manufacturerTxt">
+            <summary>
+            manufacturerTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddVehicle.modelTxt">
+            <summary>
+            modelTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddVehicle.manufacturerFailLbl">
+            <summary>
+            manufacturerFailLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddVehicle.modelFailLbl">
+            <summary>
+            modelFailLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddVehicle.revealCodeBtn">
+            <summary>
+            revealCodeBtn control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddVehicle.SIPPCodeTxt">
+            <summary>
+            SIPPCodeTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddVehicle.MPGTxt">
+            <summary>
+            MPGTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddVehicle.MPGFailLbl">
+            <summary>
+            MPGFailLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddVehicle.SIPPCodeFailLbl">
+            <summary>
+            SIPPCodeFailLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddVehicle.addVehicleBtn">
+            <summary>
+            addVehicleBtn control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddVehicle.addCompleteLbl">
+            <summary>
+            addCompleteLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddVehicle.SIPPCodesSizeOfVehicleTbl">
+            <summary>
+            SIPPCodesSizeOfVehicleTbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddVehicle.SIPPCodesNoOfDoorsTbl">
+            <summary>
+            SIPPCodesNoOfDoorsTbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddVehicle.SIPPCodesTransmissionAndDriveTbl">
+            <summary>
+            SIPPCodesTransmissionAndDriveTbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AddVehicle.SIPPCodesFuelAndAirConTbl">
+            <summary>
+            SIPPCodesFuelAndAirConTbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:CarHireWebApp.AvailableVehicles">
+            <summary>
+             This class shows the available vehicles by location.
+             The user can then select the date that they wish book the vehicle for.
+             Once they have selected the time, assuming it is in the future, the user can continue with the order.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.AvailableVehicles.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.AvailableVehicles.LoadLocations">
+            <summary>
+             Loads all the locations in the database to be listed in the dropdown.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.AvailableVehicles.AddHeaderRow">
+            <summary>
+             Adds the header row the the vehicles available table.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.AvailableVehicles.SearchAvailableVehiclesBtn_Click(System.Object,System.EventArgs)">
+            <summary>
+             When button is pressed make the table visible.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.AvailableVehicles.BookVehicleBtn_Click(System.Object,System.EventArgs)">
+            <summary>
+             Create a booking against selected car if possible.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.AvailableVehicles.AddCell(System.Web.UI.WebControls.TableRow,System.String)">
+            <summary>
+             Adds cells with text to vehicles available table.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.AvailableVehicles.RefreshPage(System.String)">
+            <summary>
+             Refreshes the page to update the query string
+            </summary>
+        </member>
+        <member name="F:CarHireWebApp.AvailableVehicles.generalErrorLbl">
+            <summary>
+            generalErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AvailableVehicles.inputErrorLbl">
+            <summary>
+            inputErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AvailableVehicles.locationDdl">
+            <summary>
+            locationDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AvailableVehicles.hireStartDateTxt">
+            <summary>
+            hireStartDateTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AvailableVehicles.hireStartTimeTxt">
+            <summary>
+            hireStartTimeTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AvailableVehicles.hireStartTimeTimePicker">
+            <summary>
+            hireStartTimeTimePicker control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AvailableVehicles.hireEndDateTxt">
+            <summary>
+            hireEndDateTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AvailableVehicles.hireEndTimeTxt">
+            <summary>
+            hireEndTimeTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AvailableVehicles.hireEndTimeTimePicker">
+            <summary>
+            hireEndTimeTimePicker control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AvailableVehicles.searchAvailableVehiclesBtn">
+            <summary>
+            searchAvailableVehiclesBtn control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.AvailableVehicles.vehiclesAvailableTbl">
+            <summary>
+            vehiclesAvailableTbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:CarHireWebApp.CheckoutComplete">
+            <summary>
+             This page contains the paypal payer id and the order id so if the customer has any problems they can contact
+             the company and/or paypal to sort them out.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.CheckoutComplete.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+             Need to be logged in to access this page. The last added order is listed on this page to verify the transaction.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.CheckoutComplete.ContinueBtn_Click(System.Object,System.EventArgs)">
+            <summary>
+             Exits to home page.
+            </summary>
+        </member>
+        <member name="F:CarHireWebApp.CheckoutComplete.generalErrorLbl">
+            <summary>
+            generalErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.CheckoutComplete.transactionIDLbl">
+            <summary>
+            transactionIDLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.CheckoutComplete.transactionLbl">
+            <summary>
+            transactionLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.CheckoutComplete.thankyouLbl">
+            <summary>
+            thankyouLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.CheckoutComplete.continueBtn">
+            <summary>
+            continueBtn control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:CarHireWebApp.ReviewOrder">
+            <summary>
+             Displays the current information of the order to give the user the option to cancel if it is incorrect.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.ReviewOrder.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+             Must be logged in to view this page.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.ReviewOrder.PayPalBtn_Click(System.Object,System.EventArgs)">
+            <summary>
+             Stores the information and proceeds to PayPal payment page.
+            </summary>
+        </member>
+        <member name="F:CarHireWebApp.ReviewOrder.generalErrorLbl">
+            <summary>
+            generalErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.ReviewOrder.inputErrorLbl">
+            <summary>
+            inputErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.ReviewOrder.orderConfirmedLbl">
+            <summary>
+            orderConfirmedLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.ReviewOrder.vehicleImg">
+            <summary>
+            vehicleImg control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.ReviewOrder.addressLbl">
+            <summary>
+            addressLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.ReviewOrder.carInfoLbl">
+            <summary>
+            carInfoLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.ReviewOrder.dateTimeLbl">
+            <summary>
+            dateTimeLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.ReviewOrder.priceLbl">
+            <summary>
+            priceLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.ReviewOrder.PayPalBtn">
+            <summary>
+            PayPalBtn control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:CarHireWebApp.SelectOrCreateAddresses">
+            <summary>
+             This class allows for previous addresses used by that customer to be used again or create a new address.
+             The address of the location can be used instead of an address the customer has entered.
+            </summary>
+        </member>
+        <member name="T:CarHireWebApp.SelectOrCreateAddresses.AddressValid">
+            <summary>
+             Struct to check whether the address entered is already in the database.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.SelectOrCreateAddresses.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+             Need to be logged in to access this page
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.SelectOrCreateAddresses.AddHeaderRow">
+            <summary>
+             Adds table header for vehicle table.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.SelectOrCreateAddresses.CustomersInCompanyDdl_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+             To force a postback when a customer is selected.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.SelectOrCreateAddresses.UseAddressBtn_Click(System.Object,System.EventArgs)">
+            <summary>
+             Uses a previously entered address.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.SelectOrCreateAddresses.UseLocationAddressBtn_Click(System.Object,System.EventArgs)">
+            <summary>
+             Uses the location of the vehicle's address.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.SelectOrCreateAddresses.AddOrderBtn_Click(System.Object,System.EventArgs)">
+            <summary>
+             Adds a new address to be used for this order but does not save it to the database until the order is completed
+             to prevent unused records from being added.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.SelectOrCreateAddresses.GetAddress(System.Boolean)">
+            <summary>
+             Checks whether the added address is similar to an address already in the database and if not
+             store this address in a session variable to be added when the order is completed.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.SelectOrCreateAddresses.CreateOrderInformation(System.Int64,System.Int64,CarHireDBLibrary.AddressManager)">
+            <summary>
+             Creates the address information needed for the order and forwards the user onto the review order page.
+            </summary>
+        </member>
+        <member name="F:CarHireWebApp.SelectOrCreateAddresses.generalErrorLbl">
+            <summary>
+            generalErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SelectOrCreateAddresses.inputErrorLbl">
+            <summary>
+            inputErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SelectOrCreateAddresses.orderCreatedLbl">
+            <summary>
+            orderCreatedLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SelectOrCreateAddresses.customersInCompanyDdl">
+            <summary>
+            customersInCompanyDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SelectOrCreateAddresses.locationAddressTbl">
+            <summary>
+            locationAddressTbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SelectOrCreateAddresses.addressesTbl">
+            <summary>
+            addressesTbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SelectOrCreateAddresses.similarAddressesTbl">
+            <summary>
+            similarAddressesTbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SelectOrCreateAddresses.addressLine1Txt">
+            <summary>
+            addressLine1Txt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SelectOrCreateAddresses.addressLine2Txt">
+            <summary>
+            addressLine2Txt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SelectOrCreateAddresses.cityTxt">
+            <summary>
+            cityTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SelectOrCreateAddresses.zipOrPostcodeTxt">
+            <summary>
+            zipOrPostcodeTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SelectOrCreateAddresses.countyStateProvinceTxt">
+            <summary>
+            countyStateProvinceTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SelectOrCreateAddresses.addAddressBtn">
+            <summary>
+            addAddressBtn control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:CarHireWebApp._Default">
+            <summary>
+             This class shows locations and places them on a map.
+             A slideshow is also displayed using javascript in the aspx file.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp._Default.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            </summary>
+        </member>
+        <member name="F:CarHireWebApp._Default.generalErrorLbl">
+            <summary>
+            generalErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:CarHireWebApp.EditAvailableVehicle">
+            <summary>
+            Loads all the locations that the current user owns, loads all available vehicles for a selected location
+            then shows the information about that available vehicle to edit.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.EditAvailableVehicle.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.EditAvailableVehicle.LoadLocations">
+            <summary>
+             Loads all the locations in the database for logged in user to be listed in the dropdown.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.EditAvailableVehicle.LoadAvailableVehicle(System.Int64)">
+            <summary>
+             Loads the selected available vehicle for this location.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.EditAvailableVehicle.LocationDdl_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+             Loads all vehicles for this location
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.EditAvailableVehicle.VehiclesAvailableDdl_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+             Shows the information for the available vehicle selected.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.EditAvailableVehicle.EditAvailableVehiclesBtn_Click(System.Object,System.EventArgs)">
+            <summary>
+             Updates the selected available vehicle with the new values entered in the text fields.
+            </summary>
+        </member>
+        <member name="F:CarHireWebApp.EditAvailableVehicle.generalErrorLbl">
+            <summary>
+            generalErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditAvailableVehicle.inputErrorLbl">
+            <summary>
+            inputErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditAvailableVehicle.vehicleAddedLbl">
+            <summary>
+            vehicleAddedLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditAvailableVehicle.locationDdl">
+            <summary>
+            locationDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditAvailableVehicle.vehiclesAvailableDdl">
+            <summary>
+            vehiclesAvailableDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditAvailableVehicle.vehicleImg">
+            <summary>
+            vehicleImg control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditAvailableVehicle.totalVehiclesTxt">
+            <summary>
+            totalVehiclesTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditAvailableVehicle.activeDdl">
+            <summary>
+            activeDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditAvailableVehicle.currencyDdl">
+            <summary>
+            currencyDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditAvailableVehicle.basePriceTxt">
+            <summary>
+            basePriceTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditAvailableVehicle.editAvailableVehicleBtn">
+            <summary>
+            editAvailableVehicleBtn control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:CarHireWebApp.EditLocation">
+            <summary>
+            This class lists all the locations the logged in company owns then once one of these locations is selected
+            the current information in loaded into the textboxes for the user to be able to change.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.EditLocation.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            Must be logged in as a company.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.EditLocation.LocationDdl_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+             Loads the selected location.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.EditLocation.LoadLocation">
+            <summary>
+             Loads the details of the selected location into all the textboxes.
+            </summary>
+        </member>
+        <member name="F:CarHireWebApp.EditLocation.ErrorMessage">
+            <summary>
+            ErrorMessage control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditLocation.generalErrorLbl">
+            <summary>
+            generalErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditLocation.inputErrorLbl">
+            <summary>
+            inputErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditLocation.locationSavedLbl">
+            <summary>
+            locationSavedLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditLocation.locationDdl">
+            <summary>
+            locationDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditLocation.locationNameTxt">
+            <summary>
+            locationNameTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditLocation.ownerNameTxt">
+            <summary>
+            ownerNameTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditLocation.capacityTxt">
+            <summary>
+            capacityTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditLocation.emailAddressTxt">
+            <summary>
+            emailAddressTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditLocation.longitudeTxt">
+            <summary>
+            longitudeTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditLocation.latitudeTxt">
+            <summary>
+            latitudeTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditLocation.enterManuallyChk">
+            <summary>
+            enterManuallyChk control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditLocation.activeDdl">
+            <summary>
+            activeDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditLocation.addressLine1Txt">
+            <summary>
+            addressLine1Txt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditLocation.addressLine1Chk">
+            <summary>
+            addressLine1Chk control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditLocation.addressLine2Txt">
+            <summary>
+            addressLine2Txt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditLocation.addressLine2Chk">
+            <summary>
+            addressLine2Chk control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditLocation.cityTxt">
+            <summary>
+            cityTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditLocation.cityChk">
+            <summary>
+            cityChk control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditLocation.zipOrPostcodeTxt">
+            <summary>
+            zipOrPostcodeTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditLocation.zipOrPostcodeChk">
+            <summary>
+            zipOrPostcodeChk control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditLocation.countyStateProvinceTxt">
+            <summary>
+            countyStateProvinceTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditLocation.countyStateProvinceChk">
+            <summary>
+            countyStateProvinceChk control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditLocation.countryChk">
+            <summary>
+            countryChk control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditLocation.updateLocationBtn">
+            <summary>
+            updateLocationBtn control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:CarHireWebApp.EditVehicle">
+            <summary>
+             This class allows for vehicles already in database to be edited.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.EditVehicle.UpdateInputVisible">
+            <summary>
+             Sets the user input update fields to visible.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.EditVehicle.AddHeaderRow">
+            <summary>
+             Adds table header for vehicle table.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.EditVehicle.AddCell(System.Web.UI.WebControls.TableRow,System.String)">
+            <summary>
+             Adds cells with text to vehicle table.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.EditVehicle.AddModalHeaderRow">
+            <summary>
+             Adds header row to SIPP Codes modal.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.EditVehicle.LoadSIPPCodes">
+            <summary>
+             Get SIPP Codes for modal.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.EditVehicle.LoadVehicles">
+            <summary>
+             Load vehicles and put into table but make table invisible until a manufacturer and model are selected.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.EditVehicle.SelectToUpdateBtn_Click(System.Object,System.EventArgs)">
+            <summary>
+             When vehicle to update button is selected.
+            </summary>
+            <remarks>
+            Sessions variables of the car id and image location are saved as they are needed later.
+            The car id is checked so if there are duplicate manufacturers and models the correct car is selected.
+            The image location is saved if the image is going to be kept the same for the update.
+            </remarks>
+        </member>
+        <member name="M:CarHireWebApp.EditVehicle.VehicleUpdateBtn_Click(System.Object,System.EventArgs)">
+            <summary>
+             Checks fields entered are valid then updates vehicle in database.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.EditVehicle.PictureUpload">
+            <summary>
+             Performs checks on picture to make sure it is a jpg and less than 10MB
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.EditVehicle.LoadManufacturers">
+            <summary>
+             Loads manufacturers.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.EditVehicle.ManufacturerDdl_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+             When a manufacturer is loaded populate models ddl with related models.
+            </summary>
+        </member>
+        <member name="F:CarHireWebApp.EditVehicle.UpdatePanel1">
+            <summary>
+            UpdatePanel1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditVehicle.generalErrorLbl">
+            <summary>
+            generalErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditVehicle.manufacturerDdl">
+            <summary>
+            manufacturerDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditVehicle.modelDdl">
+            <summary>
+            modelDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditVehicle.VehiclesTbl">
+            <summary>
+            VehiclesTbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditVehicle.revealCodeBtnTbl">
+            <summary>
+            revealCodeBtnTbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditVehicle.pictureLbl">
+            <summary>
+            pictureLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditVehicle.fileUpload">
+            <summary>
+            fileUpload control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditVehicle.imgViewFile">
+            <summary>
+            imgViewFile control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditVehicle.noImageChk">
+            <summary>
+            noImageChk control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditVehicle.pictureErrorLbl">
+            <summary>
+            pictureErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditVehicle.vehicleDetailsLbl">
+            <summary>
+            vehicleDetailsLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditVehicle.manufacturerLbl">
+            <summary>
+            manufacturerLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditVehicle.manufacturerTxt">
+            <summary>
+            manufacturerTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditVehicle.modelLbl">
+            <summary>
+            modelLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditVehicle.modelTxt">
+            <summary>
+            modelTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditVehicle.manufacturerFailLbl">
+            <summary>
+            manufacturerFailLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditVehicle.modelFailLbl">
+            <summary>
+            modelFailLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditVehicle.SIPPCodeLbl">
+            <summary>
+            SIPPCodeLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditVehicle.revealCodeBtn">
+            <summary>
+            revealCodeBtn control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditVehicle.SIPPCodeTxt">
+            <summary>
+            SIPPCodeTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditVehicle.MPGLbl">
+            <summary>
+            MPGLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditVehicle.MPGTxt">
+            <summary>
+            MPGTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditVehicle.activeChk">
+            <summary>
+            activeChk control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditVehicle.MPGFailLbl">
+            <summary>
+            MPGFailLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditVehicle.SIPPCodeFailLbl">
+            <summary>
+            SIPPCodeFailLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditVehicle.editVehicleBtn">
+            <summary>
+            editVehicleBtn control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditVehicle.updateCompleteLbl">
+            <summary>
+            updateCompleteLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditVehicle.vehicleIDTxt">
+            <summary>
+            vehicleIDTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditVehicle.SIPPCodesSizeOfVehicleTbl">
+            <summary>
+            SIPPCodesSizeOfVehicleTbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditVehicle.SIPPCodesNoOfDoorsTbl">
+            <summary>
+            SIPPCodesNoOfDoorsTbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditVehicle.SIPPCodesTransmissionAndDriveTbl">
+            <summary>
+            SIPPCodesTransmissionAndDriveTbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.EditVehicle.SIPPCodesFuelAndAirConTbl">
+            <summary>
+            SIPPCodesFuelAndAirConTbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:CarHireWebApp.ManageHolidayOpeningTimes">
+            <summary>
+             This class shows holiday times in the database.
+            </summary>
+            <remarks>
+            Session variables used for error and status text due to page redirect.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.ManageHolidayOpeningTimes.holidayDates">
+            <summary>
+            List of holiday dates to be transfered to javascript for use in the jquery calendar
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.ManageHolidayOpeningTimes.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.ManageHolidayOpeningTimes.LoadLocations">
+            <summary>
+             Loads all the locations in the database to be listed in the dropdown.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.ManageHolidayOpeningTimes.LocationDdl_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+             Performs page refresh to load holiday times for selected location and sets the labels to empty strings.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.ManageHolidayOpeningTimes.AddHeaderRow">
+            <summary>
+             Adds the header row the the holiday opening times table
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.ManageHolidayOpeningTimes.AddHolidayTimeRow">
+            <summary>
+             Adds the row that can add new holiday opening times
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.ManageHolidayOpeningTimes.LoadOpeningTimes">
+            <summary>
+             Load holiday opening times and dates for location in dropdown box
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.ManageHolidayOpeningTimes.HolidayTimeAddBtn_Click(System.Object,System.EventArgs)">
+            <summary>
+             Adds a new holiday opening time record to the selected location
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.ManageHolidayOpeningTimes.DeleteHolidayBtn_Click(System.Object,System.EventArgs)">
+            <summary>
+             Deletes the selected row
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.ManageHolidayOpeningTimes.RefreshPage(System.String)">
+            <summary>
+             Refreshes the page to update the query string
+            </summary>
+        </member>
+        <member name="F:CarHireWebApp.ManageHolidayOpeningTimes.generalErrorLbl">
+            <summary>
+            generalErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.ManageHolidayOpeningTimes.inputErrorLbl">
+            <summary>
+            inputErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.ManageHolidayOpeningTimes.timeSavedLbl">
+            <summary>
+            timeSavedLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.ManageHolidayOpeningTimes.locationDdl">
+            <summary>
+            locationDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.ManageHolidayOpeningTimes.holidayOpeningTimesTbl">
+            <summary>
+            holidayOpeningTimesTbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:CarHireWebApp.OrderConfirmation">
+            <summary>
+             Shows the order that was confirmed and saves the information to the database.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.OrderConfirmation.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+             Need to be logged in to access this page.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.OrderConfirmation.LoadInformation(CarHireDBLibrary.VehicleManager@,System.Double@,System.Double@,System.DateTime@,System.DateTime@,CarHireDBLibrary.AddressManager@,CarHireDBLibrary.CustomerManager@,CarHireDBLibrary.LocationManager@)">
+            <summary>
+             Loads the information about the order from the session variables which were stored from the review order page.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.OrderConfirmation.DisplayInformation">
+            <summary>
+             Puts the information onto the page to display.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.OrderConfirmation.SaveOrder">
+            <summary>
+             Saves the order to the database and emails the appropriate accounts.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.OrderConfirmation.confirmOrderNotify(System.String,System.String,System.String)">
+            <summary>
+             Emails the customer, location and company that an order has been added.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.OrderConfirmation.CompletePayment(System.Double,System.String,System.String@)">
+            <summary>
+             Completes the PayPal transaction.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.OrderConfirmation.ConfirmOrderBtn_Click(System.Object,System.EventArgs)">
+            <summary>
+             Adds order to the database then goes to the checkout complete page to show payer id of PayPal.
+            </summary>
+        </member>
+        <member name="F:CarHireWebApp.OrderConfirmation.generalErrorLbl">
+            <summary>
+            generalErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.OrderConfirmation.vehicleImg">
+            <summary>
+            vehicleImg control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.OrderConfirmation.addressLbl">
+            <summary>
+            addressLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.OrderConfirmation.carInfoLbl">
+            <summary>
+            carInfoLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.OrderConfirmation.dateTimeLbl">
+            <summary>
+            dateTimeLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.OrderConfirmation.priceLbl">
+            <summary>
+            priceLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.OrderConfirmation.confirmOrderBtn">
+            <summary>
+            confirmOrderBtn control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SiteMaster.locationDiv1">
+            <summary>
+            locationDiv1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SiteMaster.locationAdd">
+            <summary>
+            locationAdd control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SiteMaster.locationEdit">
+            <summary>
+            locationEdit control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SiteMaster.locationDiv2">
+            <summary>
+            locationDiv2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SiteMaster.openingTimes">
+            <summary>
+            openingTimes control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SiteMaster.manageHolidayTimes">
+            <summary>
+            manageHolidayTimes control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SiteMaster.vehicleDiv">
+            <summary>
+            vehicleDiv control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SiteMaster.vehicleAdd">
+            <summary>
+            vehicleAdd control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SiteMaster.vehicleEdit">
+            <summary>
+            vehicleEdit control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SiteMaster.bookingsDdl">
+            <summary>
+            bookingsDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SiteMaster.bookableDiv">
+            <summary>
+            bookableDiv control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SiteMaster.bookingAdd">
+            <summary>
+            bookingAdd control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SiteMaster.bookingEdit">
+            <summary>
+            bookingEdit control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SiteMaster.companyDdl">
+            <summary>
+            companyDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SiteMaster.companyDiv">
+            <summary>
+            companyDiv control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SiteMaster.companyAdd">
+            <summary>
+            companyAdd control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SiteMaster.companyAddressAdd">
+            <summary>
+            companyAddressAdd control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SiteMaster.customerDdl">
+            <summary>
+            customerDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SiteMaster.customerView">
+            <summary>
+            customerView control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SiteMaster.customerDiv">
+            <summary>
+            customerDiv control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SiteMaster.customerAdd">
+            <summary>
+            customerAdd control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SiteMaster.customerAddressAdd">
+            <summary>
+            customerAddressAdd control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SiteMaster.registerDdl">
+            <summary>
+            registerDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SiteMaster.accountDdl">
+            <summary>
+            accountDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SiteMaster.updateCustomer">
+            <summary>
+            updateCustomer control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SiteMaster.updateCompany">
+            <summary>
+            updateCompany control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SiteMaster.viewOrders">
+            <summary>
+            viewOrders control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SiteMaster.viewCustomerOrders">
+            <summary>
+            viewCustomerOrders control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SiteMaster.loginDdl">
+            <summary>
+            loginDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SiteMaster.loginCompany">
+            <summary>
+            loginCompany control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SiteMaster.loginCustomer">
+            <summary>
+            loginCustomer control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SiteMaster.logout">
+            <summary>
+            logout control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.SiteMaster.MainContent">
+            <summary>
+            MainContent control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Site_Mobile.HeadContent">
+            <summary>
+            HeadContent control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Site_Mobile.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Site_Mobile.FeaturedContent">
+            <summary>
+            FeaturedContent control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Site_Mobile.MainContent">
+            <summary>
+            MainContent control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:CarHireWebApp.UpdateCompany">
+            <summary>
+             Updates the current logged in company.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.UpdateCompany.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.UpdateCompany.UpdateUser_Click(System.Object,System.EventArgs)">
+            <summary>
+             Update the company in the database assuming all fields entered are correct.
+            </summary>
+        </member>
+        <member name="F:CarHireWebApp.UpdateCompany.ErrorMessage">
+            <summary>
+            ErrorMessage control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.UpdateCompany.generalErrorLbl">
+            <summary>
+            generalErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.UpdateCompany.inputErrorLbl">
+            <summary>
+            inputErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.UpdateCompany.companySavedLbl">
+            <summary>
+            companySavedLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.UpdateCompany.companyNameTxt">
+            <summary>
+            companyNameTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.UpdateCompany.companyDescriptionTxt">
+            <summary>
+            companyDescriptionTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.UpdateCompany.licensingDetailsTxt">
+            <summary>
+            licensingDetailsTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.UpdateCompany.emailAddressTxt">
+            <summary>
+            emailAddressTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:CarHireWebApp.Vehicles">
+            <summary>
+             This class shows vehicles in the database.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.Vehicles.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.Vehicles.LoadVehicles">
+            <summary>
+             Load vehicles and put them into a table.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.Vehicles.AddHeaderRow">
+            <summary>
+             Adds table header for vehicle table.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.Vehicles.AddCell(System.Web.UI.WebControls.TableRow,System.String)">
+            <summary>
+             Adds cells with text to vehicle table.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.Vehicles.LoadManufacturers">
+            <summary>
+             Loads manufacturers.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.Vehicles.AddModalHeaderRow">
+            <summary>
+             Get header row for SIPP Codes modal.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.Vehicles.LoadSIPPCodes">
+            <summary>
+             Get SIPP Codes for modal.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.Vehicles.ManufacturerDdl_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+             When a manufacturer is loaded populate models ddl with related models.
+            </summary>
+        </member>
+        <member name="F:CarHireWebApp.Vehicles.UpdatePanel1">
+            <summary>
+            UpdatePanel1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Vehicles.generalErrorLbl">
+            <summary>
+            generalErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Vehicles.manufacturerDdl">
+            <summary>
+            manufacturerDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Vehicles.modelDdl">
+            <summary>
+            modelDdl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Vehicles.ecoFriendlyChk">
+            <summary>
+            ecoFriendlyChk control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Vehicles.VehiclesTbl">
+            <summary>
+            VehiclesTbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Vehicles.revealCodeBtn">
+            <summary>
+            revealCodeBtn control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Vehicles.SIPPCodesSizeOfVehicleTbl">
+            <summary>
+            SIPPCodesSizeOfVehicleTbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Vehicles.SIPPCodesNoOfDoorsTbl">
+            <summary>
+            SIPPCodesNoOfDoorsTbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Vehicles.SIPPCodesTransmissionAndDriveTbl">
+            <summary>
+            SIPPCodesTransmissionAndDriveTbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.Vehicles.SIPPCodesFuelAndAirConTbl">
+            <summary>
+            SIPPCodesFuelAndAirConTbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:CarHireWebApp.ViewCompanies">
+            <summary>
+             View all the companies in the database and search by company name.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.ViewCompanies.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+             Must be logged in.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.ViewCompanies.AddHeaderRow">
+            <summary>
+             Adds table header for vehicle table.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.ViewCompanies.AddCell(System.Web.UI.WebControls.TableRow,System.String)">
+            <summary>
+             Adds cells with text to company table.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.ViewCompanies.SearchCompanyNameBtn_Click(System.Object,System.EventArgs)">
+            <summary>
+             Refreshes page but with updated search term records will change.
+            </summary>
+        </member>
+        <member name="F:CarHireWebApp.ViewCompanies.generalErrorLbl">
+            <summary>
+            generalErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.ViewCompanies.companyNameTxt">
+            <summary>
+            companyNameTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.ViewCompanies.searchCompanyNameBtn">
+            <summary>
+            searchCompanyNameBtn control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.ViewCompanies.CompaniesTbl">
+            <summary>
+            CompaniesTbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="M:CarHireWebApp.ViewCustomers.AddHeaderRow">
+            <summary>
+             Adds table header for vehicle table.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.ViewCustomers.AddCell(System.Web.UI.WebControls.TableRow,System.String)">
+            <summary>
+             Adds cells with text to company table.
+            </summary>
+        </member>
+        <member name="F:CarHireWebApp.ViewCustomers.generalErrorLbl">
+            <summary>
+            generalErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.ViewCustomers.customerSurnameTxt">
+            <summary>
+            customerSurnameTxt control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.ViewCustomers.searchCustomersBtn">
+            <summary>
+            searchCustomersBtn control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.ViewCustomers.CustomersTbl">
+            <summary>
+            CustomersTbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:CarHireWebApp.View_Locations">
+            <summary>
+             View all the locations in the database by placing their location on Google maps.
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.View_Locations.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+             Loads the locations, opening times and holidays opening times for use in javascript.
+            </summary>
+        </member>
+        <member name="F:CarHireWebApp.View_Locations.generalErrorLbl">
+            <summary>
+            generalErrorLbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:CarHireWebApp.View_Locations.LocationsTbl">
+            <summary>
+            LocationsTbl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:CarHireWebApp.ViewSwitcher">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:CarHireWebApp.ViewSwitcher.CurrentView">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:CarHireWebApp.ViewSwitcher.AlternateView">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:CarHireWebApp.ViewSwitcher.SwitchUrl">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:CarHireWebApp.ViewSwitcher.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,77 @@
+﻿body {
+}
+
+.spacer {
+    margin-bottom: 20px;
+    border: 5px;
+}
+
+.bigspacer {
+    margin-bottom: 40px;
+    border: 5px;
+}
+
+.maxwidth {
+    width: 100%;
+}
+
+.mediumspacer {
+    margin-bottom: 30px;
+    margin-top: 70px;
+    border: 5px;
+}
+
+.button {
+    /* Remove all decorations to look like normal text */
+    background: none;
+    border: none;
+    display: inline;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    outline-offset: 0;
+    /* Additional styles to look like a link */
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.sameline {
+    display: inline;
+}
+
+.leftfloat {
+    float: left;
+}
+
+.rightfloat {
+    float: right;
+}
+
+.input-xs {
+    height: 22px;
+    padding: 5px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+    }
+
+.readonlytextbox
+{
+    background-color: #F2F2F2 !important;
+    color: #C6C6C6;
+    border-color: #ddd;
+}
+
+.center {
+    float: left; 
+    width: 100%; 
+    text-align: center;
+}
+
+.centerimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,15 @@
+﻿body {
+}
+
+.squarebutton {
+   height:100px;
+   width:200px;
+   cursor:pointer;
+   font-size: x-large;
+}
+
+.bluerectangle {
+    height:100px;
+    width:400px;
+    color: green;
+}
